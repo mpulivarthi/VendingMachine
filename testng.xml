@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Vending Machine Suite">
+    <listeners>
+        <listener class-name="com.vm.listener.LogListener"></listener>
+    </listeners>
+    <test name="Vending Machine Tests">
+        <classes>
+            <class name="com.vm.tests.VendingMachineTest"></class>
+        </classes>
+    </test>
+</suite>

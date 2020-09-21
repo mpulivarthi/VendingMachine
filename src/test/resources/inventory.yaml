@@ -1,0 +1,3 @@
+# initial stock to load into Vending Machine for each product and Coin
+product : 4
+coin : 0
